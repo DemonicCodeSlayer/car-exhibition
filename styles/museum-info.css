@@ -1,0 +1,15 @@
+.museum-info {
+    top: 1080px;
+    position: absolute;
+    background-color: var(--main-background-color);
+    width: 100%;
+    height: 566px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50px;
+}
+
+.museum-info__block:first-child {
+    margin-right: 160px;
+}
