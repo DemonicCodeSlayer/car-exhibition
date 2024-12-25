@@ -1,8 +1,14 @@
 :root {
     --main-background-color: #F6F5F5;
     --menu-background-color: rgba(246, 245, 245, 50%);
-    --secondary-backcground-color: #D0E4D9;
-    --tertiary-backcground-color: #C1C1C1;
+    --secondary-background-color: #D0E4D9;
+    --tertiary-background-color: #F6F9F1;
+
+    --main-border-color: #C1C1C1;
+
+    /* competitions block */
+    --main-competitions-block-background-color: #D2E3ED;
+    --secondary-competitions-block-background-color: #353535;
 
     /* photo-link */
     --photo-link-main-background-color: #8EAAAB;

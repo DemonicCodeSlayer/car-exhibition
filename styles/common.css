@@ -17,6 +17,14 @@
     line-height: 50px;
 }
 
+.caption {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 45px;
+    color: var(--main-text-color);
+}
+
 .descriptor {
     margin: 0;
     font-size: 20px;
@@ -25,14 +33,17 @@
     color: var(--main-text-color);
 }
 
-.descriptor_secondary {
-    color: var(--secondary-text-color);
-}
-
 .text {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    color: var(--main-text-color);
+}
+
+.caption_secondary,
+.descriptor_secondary,
+.text_seconadry {
+    color: var(--secondary-text-color);
 }
 
 .link {
