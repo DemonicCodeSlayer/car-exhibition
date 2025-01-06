@@ -13,6 +13,7 @@
 @import './photo-link.css';
 @import './programms.css';
 @import './divider.css';
+@import './price.css';
 
 * {
     box-sizing: border-box;
