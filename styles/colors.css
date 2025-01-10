@@ -18,6 +18,7 @@
     /* text */
     --main-text-color: #1E1E25;
     --secondary-text-color: #FFFFFF;
+    --tertiary-text-color: #9090A6;
 
     /* main-button */
     --main-backgound-color-button: #6C79EC;
@@ -31,4 +32,16 @@
     /* secondary-button */
     --secondary-button-backgound-color: #6C79EC;
     --secondary-button-text-color: #FFFFFF;
+
+    /* tertiary-button */
+    --tertiary-button-backgound-color: #D0E4D9;
+    --tertiary-button-text-color: #373737;
+
+    /* ticket */
+    --ticket-backgound-color: #FFFFFF;
+    --ticket-divider-backgound-color: #1E1E25;
+
+    /* border */
+    --main-border-color: #9090A6;
+    --secondary-border-color: #D1D1DE;
 }

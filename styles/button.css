@@ -24,3 +24,10 @@
 .button_secondary {
     width: 282px;
 }
+
+.button_tertiary {
+    width: 100%;
+    background-color: var(--tertiary-button-backgound-color);
+    color: var(--tertiary-button-text-color);
+    border: none;
+}
