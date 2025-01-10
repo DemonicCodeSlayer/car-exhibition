@@ -31,3 +31,9 @@
     color: var(--tertiary-button-text-color);
     border: none;
 }
+
+@media (max-width: 320px) {
+    .button {
+        width: 100%;
+    }
+}
