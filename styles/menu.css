@@ -51,13 +51,7 @@
 
 @media (max-width: 1024px) {
     .menu {
-        height: 98px;
-    }
-}
-
-@media (max-width: 320px) {
-    .menu {
-        padding-top: 15px;
+        position: static;
         height: 38px;
     }
 
@@ -65,8 +59,19 @@
         position: static;
     }
 
+    .menu__wrapper.container {
+        padding: 0;
+    }
+
     .menu:hover .menu__wrapper {
         background-color: transparent;
+    }
+}
+
+@media (max-width: 320px) {
+    .menu {
+        padding-top: 15px;
+        height: 38px;
     }
 
     .menu__burger {
@@ -109,12 +114,12 @@
     }
 
     .menu__navbar {
-        padding: 0 18px;
-        width: 0;
-        height: 0;
         position: absolute;
         top: 0;
         right: 0;
+        padding: 0 18px;
+        width: 0;
+        height: 0;
         background-color: var(--secondary-text-color);
         transition: .5s width, .5s height;
     }
@@ -125,18 +130,29 @@
     }
 
     .menu__list {
-        position: absolute;
-        right: -100vw;
-        width: 100%;
-        height: 176px;
-        transition: .5s right;
-        margin-top: 123px;
+        width: 0;
+        margin: 0 0 0 auto;
         padding: 0;
+        height: 176px;
+        margin-top: 123px;
         flex-direction: column;
         align-items: end;
+        transition: .3s width;
     }
 
-    .menu__checkbox:checked + .menu__burger + .menu__navbar > .menu__list {
-        right: 18px;
+    .menu__item {
+        width: inherit;
+    }
+
+    .menu__link {
+        width: inherit;
+        display: block;
+        overflow: hidden
+    }
+
+    .menu__checkbox:checked 
+    + .menu__burger 
+    + .menu__navbar > .menu__list {
+        width: 106px;
     }
 }
