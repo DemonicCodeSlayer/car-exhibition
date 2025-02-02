@@ -1,0 +1,11 @@
+{
+  "name": "car-exhibition",
+  "version": "1.0.0",
+  "description": "Project for testing",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.83.4"
+  }
+}
